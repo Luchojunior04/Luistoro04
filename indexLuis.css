@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #f3f3ea;
+}
+
+header div.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 150px;
+    color: orange;
+    
+}
+
+header div.logo{
+    backdrop-filter: blur(5px);
+}
+
+#home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    gap: 30px;
+    color: white;
+      
+}
+
+#home li{
+    display: flex;
+    background-color: #ce3700;
+    padding: 8px 8px;
+    border-radius: 25px;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+#home li:hover{
+    background-color: #d1d0d0;
+}
+
+.Iam{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 150px;
+}
+
+.Iam img{
+    display: flex;
+    border-radius: 50%;
+}
+
+p{
+    display: flex;
+    padding-top: 25px;
+    font-weight: bolder;
+    font-size: large;
+}
+
+#portafolio li a{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    text-decoration: none;
+    color: orange;
+}
+
+#portafolio li{
+    list-style: none;   
+}
+
+svg{
+    display:flex;
+    justify-content:center;
+    color: orange;
+    transform: translate(196px, -100%);
+}
+
+.galeria{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    padding-top: 120px;
+}
+
+.galeria img{
+    width: 340px;
+    height: 600px;
+    padding-top: 15px;
+    padding-left: 15px;
+    transition: opacity 0.4;        
+}
+
+img:has(img:hover) img:not(:hover){
+    opacity: 0.4;
+}
+
+div.contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+    padding-bottom: 70px;
+    flex-direction: column;
+}
+
+div.contacto input{
+    height: 25px;
+    width: 350px;
+    margin: 6px;
+    border-radius: 10px;
+    border: none;
+    color: black;
+    font-weight: 300;
+}
+
+textarea{
+    height: 100px;
+    width: 350px;
+    margin: 6px;
+    border-radius: 10px;
+    color: rgb(122, 118, 118);
+    border: none;
+    resize: none;
+}
+
+button{
+     height: 25px;
+    width: 350px;
+    margin: 6px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: #ce3700;
+    transition: all 0.3s ease;
+
+}
+
+button:hover{
+    background-color: #d1d0d0;
+}
+
+
+
+
+
+
+
+
